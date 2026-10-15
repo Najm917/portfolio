@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import NotFoundPage from "./pages/NotFoundPage";
-import WhatsAppButton from "./components/whtasapp";
+import WhatsApp from "./components/whtasapp";
 import {
   NavPage,
   HomePage,
@@ -50,7 +50,7 @@ export default function App() {
         </Routes>
       </main>
       <FooterPage />
-      <WhatsAppButton />
+      <WhatsApp />
     </div>
   );
 }
