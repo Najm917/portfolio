@@ -66,7 +66,10 @@ export default function Navbar() {
           <div className="hidden md:flex items-center">
             <Link
               to="/contact"
-              className="px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-[#0b1320] bg-teal-400 rounded-full hover:bg-teal-300 transition-all shadow-md active:scale-95"
+              className="px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-[#0b1320] bg-teal-400 rounded-2xl hover:bg-teal-300 transition-all active:scale-95 cursor-pointer"
+              style={{
+                boxShadow: "0 8px 16px rgba(45, 212, 191, 0.35), inset 0 2px 2px rgba(255, 255, 255, 0.7), inset 0 -2px 3px rgba(0, 0, 0, 0.25)",
+              }}
             >
               Hire Me
             </Link>

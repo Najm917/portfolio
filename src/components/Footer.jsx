@@ -68,7 +68,10 @@ export default function Footer() {
             </p>
             <Link
               to="/contact"
-              className="inline-block px-5 py-2.5 rounded-xl bg-teal-400/10 border border-teal-400/30 text-teal-300 text-xs font-semibold hover:bg-teal-400 hover:text-[#0b1320] transition-all duration-300 shadow-sm"
+              className="inline-block px-5 py-2.5 rounded-2xl bg-teal-400/15 border border-teal-400/40 text-teal-300 text-xs font-bold uppercase tracking-wider hover:bg-teal-400 hover:text-[#0b1320] transition-all duration-300 active:scale-95"
+              style={{
+                boxShadow: "0 8px 16px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(255, 255, 255, 0.3), inset 0 -2px 3px rgba(0, 0, 0, 0.3)",
+              }}
             >
               Send a Message ✉️
             </Link>
