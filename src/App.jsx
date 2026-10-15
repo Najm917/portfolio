@@ -50,7 +50,6 @@ export default function App() {
         </Routes>
       </main>
       <FooterPage />
-      <WhatsApp />
     </div>
   );
 }
